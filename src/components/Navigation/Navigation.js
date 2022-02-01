@@ -1,12 +1,19 @@
+import { Link } from "react-router-dom";
 import "./Navigation.scss";
 
 export default function Navbar() {
   return (
     <nav>
       <ul>
-        <li>Accueil</li>
-        <li>Écrire</li>
-        <li>Contact</li>
+        <li>
+          <Link to="/">Accueil</Link>
+        </li>
+        <li>
+          <Link to="/ecrire">Écrire</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );

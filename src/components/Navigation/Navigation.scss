@@ -8,12 +8,13 @@ nav {
   ul {
     display: flex;
     column-gap: 4rem;
-    color: white;
     font-size: 1.8rem;
     text-transform: uppercase;
 
     li {
-      cursor: pointer;
+      a {
+        color: white;
+      }
     }
   }
 }
