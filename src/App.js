@@ -1,5 +1,12 @@
+import Navigation from "./components/Navigation/Navigation";
+
 function App() {
-  return <div className="App">Blog React Redux</div>;
+  return (
+    <div>
+      <Navigation />
+      Blog React Redux
+    </div>
+  );
 }
 
 export default App;
