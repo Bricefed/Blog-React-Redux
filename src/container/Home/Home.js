@@ -26,7 +26,6 @@ export default function Home() {
           return (
             <Card key={uuidv4()}>
               <h2>{item.title}</h2>
-              <a href="#!">En voir plus</a>
             </Card>
           );
         })}
