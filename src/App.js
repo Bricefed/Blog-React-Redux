@@ -1,10 +1,11 @@
 import Navigation from "./components/Navigation/Navigation";
+import Home from "./container/Home/Home";
 
 function App() {
   return (
     <div>
       <Navigation />
-      Blog React Redux
+      <Home />
     </div>
   );
 }
